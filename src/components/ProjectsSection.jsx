@@ -2,15 +2,6 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
     id: 2,
     title: "AutoMake Desktop App",
     description:
@@ -22,13 +13,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Note Chat",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A conversational AI assistant that lets you chat with your Obsidian notes using RAG (Retrieval-Augmented Generation).",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Python", "LangGraph", "FAISS", "Ollama"],
+    demoUrl: "https://note-chat-livid.vercel.app/",
+    githubUrl: "https://github.com/Atulya-Juyal/note-chat",
   },
 ];
 
@@ -46,7 +37,7 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {projects.map((project, key) => (
             <div
               key={key}
