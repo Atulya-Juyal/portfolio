@@ -12,13 +12,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "AutoMake Desktop App",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "AI-powered Electron app that helps developers build, review, and automate coding workflows faster.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Electron", "TypeScript", "AI Assistant"],
+    demoUrl: "https://auto-make.vercel.app/",
+    githubUrl: "https://github.com/Atulya-Juyal/auto-make",
   },
   {
     id: 3,
